@@ -66,8 +66,6 @@ input:valid, textarea:valid   {  }
 input:invalid, textarea:invalid { border-radius: 1px; -moz-box-shadow: 0px 0px 5px red; -webkit-box-shadow: 0px 0px 5px red; box-shadow: 0px 0px 5px red; }
 .no-boxshadow input:invalid, .no-boxshadow textarea:invalid { background-color: #f0dddd; }
 
-::-moz-selection{ background: #FF5E99; color:#fff; text-shadow: none; }
-::selection { background:#FF5E99; color:#fff; text-shadow: none; }
 a:link { -webkit-tap-highlight-color: #FF5E99; }
 
 button {  width: auto; overflow: visible; }
@@ -92,95 +90,179 @@ body{
 
 .wrapper{
 	margin:auto;
-	width:960px;
+/*  width:960px;*/
+  width: 100%;
 }
 
-#header-container{
-  text-align: center;
-  background-color:#f16529;
-  padding: 10px;
-/*  background-color:#f16529;
-  height:130px;
-  border-bottom:20px solid #e44d26;
-  margin-bottom:50px;
-  -webkit-box-shadow:0 40px 40px -40px #AAA;
-     -moz-box-shadow:0 40px 40px -40px #AAA;
-          box-shadow:0 40px 40px -40px #AAA;
-*/}
+h1{
+  font-size: 50px;
+  font-weight: normal;
+  padding-bottom: 20px;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.7);
+}
 
 h2, h3{
 	margin:30px 0;
 }
 
-#title, h2, h3{
-	font-weight:normal;	
-}
-
-#title{
-	font-size:30px;
-	color:white;
-}
-#title span{
+h1 span{
   font-weight: bold;
 }
 
 h2{
-	font-size: 55px;
+	font-size: 40px;
+	font-weight: normal;
 }
 
 h3{
-	font-size: 40px;
+	font-size: 30px;
 }
 
 nav{
-	float:right;
-	margin-top:100px;
+  margin: 20px 0px;
 }
 
 nav ul, nav ul li{
-	display:inline;
+/*  display:inline;*/
 }
 
-nav a{
-	padding:20px;
-	color:white;
+nav a, nav a:visited{
+  margin:2px;
+  padding:5px;
+  font-size: 20px;
+/*  width: 100%;*/
+  display: block;
+	color: rgba(20, 20, 20, 0.3);
 	text-decoration:none;
-	background-color:#e44d26;
+/*  background-color:#e44d26;*/
+  background-color: rgba(255, 255, 255, 0.3);
 }
+
+nav a:hover{
+  background-color: rgba(255, 255, 255, 0.5);
+  color: #333;
+}
+
+nav a.link-active{
+  background-color: rgba(255, 255, 255, 0.7);
+  color: #333;
+/*  font-weight: bold;
+  text-shadow: 1px 1px #fe4902, 2px 2px #fe4902, 3px 3px #fe4902, 4px 4px #fe4902, 5px 5px #fe4902, 6px 6px #fe4902;  
+*/}
 
 aside{
+  position: fixed;
+  right: 10px;
+  top: 100px;
 	color:white;
-	padding:20px;
-	float:right;
-	height:500px;
+/*  padding:20px;*/
+/*  float:right;*/
+/*  height:500px;*/
 	width:200px;
-	background-color:#f16529;
-	border-bottom:20px solid #e44d26;
-	margin-bottom:50px;
-	-webkit-box-shadow:0 0px 40px -10px #AAA;
-	   -moz-box-shadow:0 0px 40px -10px #AAA;
-	        box-shadow:0 0px 40px -10px #AAA;	
+/*  background-color:#ccc;*/
+	background-color: rgba(20, 20, 20, 0.3);
+/*  border-bottom:20px solid #e44d26;*/
+/*  margin-bottom:50px;*/
+  -webkit-border-radius: 5px;
+     -moz-border-radius: 5px;
+          border-radius: 5px;
+    
+/*  -webkit-box-shadow:0 0px 40px -10px #AAA;
+     -moz-box-shadow:0 0px 40px -10px #AAA;
+          box-shadow:0 0px 40px -10px #AAA; 
+*/}
+
+/*#main header h2{
+  padding-bottom:30px;
+}
+*/
+article{
+  width: 100%;
 }
 
-#main p{
+article p{
 	font:16px/26px Helvetica, Helvetica Neue, Arial;
 	width:620px;
-	text-shadow:none;
+/*  text-shadow:none;*/
 }
 
-#main header h2{
-	padding-bottom:30px;
+section{
+/*  width: 100%;*/
+  height: 2000px;
+  color: #fff;
+/*  padding: 80px;*/
 }
 
-article header{
-	margin-bottom:50px;
-	padding-bottom:30px;
-	width:700px;
-	-webkit-box-shadow:0 45px 60px -60px #AAA;
-	   -moz-box-shadow:0 45px 60px -60px #AAA;
-	        box-shadow:0 45px 60px -60px #AAA;
+section p{
+  font-size: 25px;
+  line-height: 2em;
+/*  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);*/
 }
 
+section p strong{
+  font-weight: normal;
+  font-size: 40px;
+}
+
+section ul {
+  font-size: 25px;
+}
+
+.section-wrap{
+/*  margin-right: 200px;*/
+  padding: 80px 0;
+  width: 600px;
+  margin: 0px auto;
+  margin-right: 250px;
+}
+
+#londrina{
+  background-color: #6195C5;
+}
+
+#oque{
+  background-color: #4F7AA2;
+}
+
+/*#oque p{
+  line-height: 1.5em;
+  font-size: 20px;
+}
+*/
+#espacos{
+  background-color: #3E784F;
+}
+
+#vantagens{
+  background-color: #55A26D;
+}
+
+#custo{
+  background-color: #DEC000;
+}
+
+#interesse h1{
+  text-shadow: none !important;
+  color: #000;
+}
+
+#divulgue{
+  background-color: #DE7400;
+}
+
+address a, address a:visited{
+  color: #fff;
+}
+
+/*article header{
+  margin-bottom:50px;
+  padding-bottom:30px;
+  width:700px;
+  -webkit-box-shadow:0 45px 60px -60px #AAA;
+     -moz-box-shadow:0 45px 60px -60px #AAA;
+          box-shadow:0 45px 60px -60px #AAA;
+}
+*/
 #footer-container{
 	background-color:#f16529;
 	height:240px;
