@@ -51,11 +51,9 @@ jQuery(function($) {
         });
         
     });
+    
+    // slider
+    $('#slider').nivoSlider({
+      pauseTime:5000
+    });
 });
-
-// $(document).ready(function() {
-//     yepnope({
-//         test: Modernizr.flexbox,
-//         nope: "flexie.min.js"
-//     })
-// });

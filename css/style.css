@@ -160,7 +160,7 @@ aside{
 /*  height:500px;*/
 	width:200px;
 /*  background-color:#ccc;*/
-	background-color: rgba(20, 20, 20, 0.3);
+	background-color: rgba(255, 255, 255, 0.1);
 /*  border-bottom:20px solid #e44d26;*/
 /*  margin-bottom:50px;*/
   -webkit-border-radius: 5px;
@@ -238,7 +238,7 @@ section ul {
 }
 
 #custo{
-  background-color: #DEC000;
+  background-color: #DE7400;
 }
 
 #interesse h1{
