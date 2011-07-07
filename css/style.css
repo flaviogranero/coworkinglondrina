@@ -117,7 +117,7 @@ h3{
 }
 
 nav{
-  margin: 20px 0px;
+  margin: 20px 0px 0px 0px;
 }
 
 nav a, nav a:visited{
@@ -152,6 +152,10 @@ aside{
      -moz-border-radius: 5px;
           border-radius: 5px;
     
+}
+
+.fb_iframe_widget{
+  padding: 5px;
 }
 
 article{
