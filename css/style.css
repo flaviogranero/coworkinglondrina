@@ -117,7 +117,7 @@ h3{
 }
 
 nav{
-  margin: 20px 0px 0px 0px;
+  margin: 20px 0px;
 }
 
 nav a, nav a:visited{
@@ -154,6 +154,11 @@ aside{
     
 }
 
+#main header{
+  position: fixed;
+  top: 0;
+  left: 0;
+}
 .fb_iframe_widget{
   padding: 5px;
 }
