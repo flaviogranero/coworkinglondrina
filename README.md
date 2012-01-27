@@ -10,4 +10,4 @@ A single page website to find partners for a new coworking space in Londrina, Br
   * [Nivo Slider](http://nivo.dev7studios.com/)
   
 ## License
-Copyright (c) 2011 [Flávio Granero](http://flaviogranero.com), released under the MIT license
+Copyright (c) 2012 [Flávio Granero](http://flaviogranero.com), released under the MIT license

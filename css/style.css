@@ -253,7 +253,10 @@ address a, address a:visited{
 
 #footer-container footer{
 	color:white;
-	text-align: right;
+}
+
+#footer-container a.author{
+  float: right;
 }
 
 #footer-container a{
