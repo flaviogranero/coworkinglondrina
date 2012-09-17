@@ -78,10 +78,77 @@ footer{
   padding: 40px 0;
 }
 
+footer a{
+  color: #B3D8EC;
+}
+
+footer a:hover{
+  color: #C2E9FF;
+}
+
 footer h6{
   font-size: 150%;
 }
 
 footer .aldeia{
   text-align: right;
+}
+
+/* Tablet
+------------------------- */
+@media (max-width: 767px) {
+  .masthead {
+    padding: 20px;
+    min-height: 0px;
+    background-size: contain;
+    // background-position: right top;
+  }
+  .masthead h1{
+    margin: 0.5em 0;
+    font-size: 36px;
+    line-height: 1em;
+  }
+  .masthead p{
+    font-size: 18px;
+    line-height: 1.5em;
+  }
+  section .inner, .sidebar-inner{
+    padding: 20px;
+  }
+  
+  footer .aldeia{
+    text-align: left;
+  }
+  
+}
+
+/* Landscape phones
+------------------------- */
+@media (max-width: 480px) {
+  .masthead {
+    padding: 10px;
+    min-height: 0px;
+    background-image: none;
+  }
+  .masthead h1{
+    margin: 0;
+    font-size: 24px;
+    line-height: 1em;
+  }
+  .masthead p{
+    font-size: 16px;
+    line-height: 1.5em;
+  }
+  
+  .masthead .inner{
+    margin: 0;
+    padding: 10px;
+  }
+  section .inner, .sidebar-inner{
+    padding: 20px;
+  }
+  footer .aldeia{
+    text-align: left;
+  }
+  
 }
