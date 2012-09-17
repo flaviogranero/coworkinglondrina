@@ -1,0 +1,87 @@
+body{
+  // background: url(dark_bg.jpeg) #252B2E repeat;
+  background-color: #5e717c;
+}
+
+header{
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  padding: 20px;
+}
+
+section{
+  background-color: #fff;
+  -moz-border-radius: .5em;
+  -webkit-border-radius: .5em;
+  border-radius: .5em;
+  margin-bottom: 1em;
+}
+
+section .inner{
+  padding: 40px;
+}
+
+p{
+  line-height: 1.5em;
+}
+
+.masthead {
+  padding: 40px;
+  color: #5e717c;
+  text-align: center;
+  // text-shadow: 0 1px 3px rgba(0, 0, 0, .4), 0 0 30px rgba(0, 0, 0, .075);
+  background: #FFF url(../images/curso_mkt_pessoal.jpg) no-repeat right bottom;
+  min-height: 350px;
+}
+
+.masthead .btn{
+  font-size: 24px;
+  margin-top: 1em;
+}
+
+.masthead h1{
+  margin: 0.5em 0;
+  font-size: 56px;
+  line-height: 1em;
+}
+
+.masthead p{
+  font-size: 28px;
+  line-height: 1em;
+}
+
+.masthead .inner{
+  margin-right: 280px;
+}
+
+// #saiba-mais{
+//   background-color: #F2F2F2;
+// }
+
+// #saiba-mais .span8{
+//   background-color: #fff;
+// }
+
+.sidebar-inner{
+  padding: 40px 40px 0 0;
+  // background-color: #F2F2F2;
+}
+
+footer{
+  // background: #F2F2F2;
+  // border-top: 1px solid #E4E4E4;
+  // color: #666;
+  color: #eee;
+  // margin-top: 40px;
+  overflow: hidden;
+  padding: 40px 0;
+}
+
+footer h6{
+  font-size: 150%;
+}
+
+footer .aldeia{
+  text-align: right;
+}
