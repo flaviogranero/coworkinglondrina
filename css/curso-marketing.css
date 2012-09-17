@@ -8,6 +8,10 @@ header{
   font-size: 20px;
   text-align: center;
   padding: 20px;
+  background: transparent url(../images/aldeia_and_nex_feature.png) no-repeat center center;
+  height: 100px;
+  text-indent: -10000px;
+  overflow: hidden;
 }
 
 section{
@@ -92,6 +96,11 @@ footer h6{
 
 footer .aldeia{
   text-align: right;
+  background: transparent url(../images/aldeia_logo.png) no-repeat 0px 50%;
+}
+
+footer .nex{
+  background: transparent url(../images/nex_logo.png) no-repeat right 50%;
 }
 
 /* Tablet
