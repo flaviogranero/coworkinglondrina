@@ -59,9 +59,9 @@ p{
   margin-right: 280px;
 }
 
-// #saiba-mais{
-//   background-color: #F2F2F2;
-// }
+#saiba-mais .inner{
+  border-right: 1px dotted #5e717c;
+}
 
 // #saiba-mais .span8{
 //   background-color: #fff;
@@ -80,6 +80,7 @@ footer{
   // margin-top: 40px;
   overflow: hidden;
   padding: 40px 0;
+  font-size: 18px;
 }
 
 footer a{
@@ -125,8 +126,9 @@ footer .nex{
     padding: 20px;
   }
   
-  footer .aldeia{
+  footer .aldeia, footer .nex{
     text-align: left;
+    background-image: none;
   }
   
 }
@@ -141,12 +143,13 @@ footer .nex{
   }
   .masthead h1{
     margin: 0;
+    margin-bottom: 10px;
     font-size: 24px;
     line-height: 1em;
   }
   .masthead p{
     font-size: 16px;
-    line-height: 1.5em;
+    line-height: 1.2em;
   }
   
   .masthead .inner{
@@ -156,8 +159,9 @@ footer .nex{
   section .inner, .sidebar-inner{
     padding: 20px;
   }
-  footer .aldeia{
+  footer .aldeia, footer .nex{
     text-align: left;
+    background-image: none;
   }
   
 }
